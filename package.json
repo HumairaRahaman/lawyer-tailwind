@@ -1,0 +1,19 @@
+{
+  "name": "lawyer-psd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "TAILWIND_MODE=watch postcss tailwind.css -o ./public/style.css -w --verbose",
+    "prod": "NODE_ENV=production postcss tailwind.css -o ./public/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "cssnano": "^5.0.7",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.7"
+  }
+}

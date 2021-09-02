@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.back-img1{
+    background-image: url('/images/slider-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 530px;
+    
+  }
+
+  .back-img2{
+    background-image: url('/images/bilb.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    
+    
+  }
+  /* .what-we-do::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2b2f85+100&0+0,0.74+100 */
+background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(43,47,133,0.74) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(43,47,133,0.74) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(43,47,133,0.74) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#bd2b2f85',GradientType=0 ); /* IE6-9 */
+
+
+  } */
+  /* .what-we-do-section::before{
+    content: " ";
+    background-image: url('/images/clint-bg.png');
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: -13%;
+    bottom: 0;
+    background-position: right bottom;
+    background-size: 66%;
+  } */
+  .atorny{
+    background-image: url('/images/service-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
